@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "PlatformControls",
+    "maps": [
+        {
+            "name": "Platform",
+            "id": "68092a9b-9830-4b93-9bc5-068fc28595a4",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "a3f8584a-d632-4cdf-916b-8f9ed588836f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "248da995-f141-439d-8c7d-cdfc0505d5ab",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "96139280-3f6f-4c5e-b4f4-49db0df277f6",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "6a448cc3-df86-481e-96ec-fbdbc5c27f7f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
